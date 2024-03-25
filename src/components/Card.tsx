@@ -56,7 +56,7 @@ lg:h-28 lg:w-20 rounded-md justify-center flex items-center border-1 border-gray
         >
           <img
             alt="front"
-            src={`/icons/${suit}-${name}.svg`}
+            src={`icons/${suit}-${name}.svg`}
             className="w-full"
           />
         </motion.div>
@@ -66,7 +66,7 @@ lg:h-28 lg:w-20 rounded-md justify-center flex items-center border-1 border-gray
         <motion.div key={`back-${suit}-${name}`} className={classNames}>
           <img
             alt="back"
-            src={`/icons/${isRed ? "red" : "black"}-back.svg`}
+            src={`icons/${isRed ? "red" : "black"}-back.svg`}
             className="w-full"
           />
         </motion.div>
