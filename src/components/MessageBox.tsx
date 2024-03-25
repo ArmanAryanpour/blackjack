@@ -1,7 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
-type Props = {};
 
-export default function MessageBox({}: Props) {
+export default function MessageBox() {
   const item = {
     hidden: { y: -20, opacity: 0 },
     show: { y: 0, opacity: 1 },
@@ -18,13 +17,9 @@ export default function MessageBox({}: Props) {
           exit={"exit"}
           className="text-center text-white "
         >
-          {"Nice Hit"}
+          {"Black Jack"}
         </motion.h1>
       </AnimatePresence>
     </div>
   );
-}
-
-export function Character(props: Props) {
-  return <div>Character</div>;
 }
