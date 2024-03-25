@@ -1,10 +1,8 @@
 <br/>
 <p align="center">
   <a href="https://github.com/ArmanAryanpour/blackjack">
-    <img src="https://raw.githubusercontent.com/ArmanAryanpour/blackjack/main/public/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/ArmanAryanpour/blackjack/main/public/logo.png" alt="Logo" width="160" height="80">
   </a>
-
-  <h3 align="center">Black Jack</h3>
 
   <p align="center">
    Interactive and animated player versus dealer
