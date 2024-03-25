@@ -1,0 +1,49 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Mit",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.3",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@types/uuid": "^8.3.4",
+    "autoprefixer": "^10.4.0",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.4",
+    "tailwind-scrollbar": "^2.0.1",
+    "tailwindcss": "^3.0.0",
+    "typescript": "4.4.2"
+  },
+  "dependencies": {
+    "animal-avatar-generator": "^1.1.0",
+    "formik": "^2.2.9",
+    "framer-motion": "6.2.4",
+    "immer": "^9.0.16",
+    "lodash": "^4.17.21",
+    "next": "^12.3.2",
+    "random-avatar-generator": "^2.0.0",
+    "react": "^17.0.2",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^17.0.2",
+    "react-inlinesvg": "^3.0.0",
+    "react-svg": "^15.1.6",
+    "react-use-draggable-scroll": "^0.4.7",
+    "use-immer": "^0.7.0",
+    "uuid": "^9.0.0",
+    "yup": "^0.32.11",
+    "zustand": "^4.1.4"
+  },
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+  }
+}
